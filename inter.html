@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malla Interactiva - Trabajo Social</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <header>
+        <h1>Malla Curricular Interactiva - Trabajo Social</h1>
+    </header>
+
+    <main>
+        <section id="primer-ano">
+            <h2>Primer Año</h2>
+            <div class="semestre" id="primer-semestre">
+                <h3>I Semestre</h3>
+                <div class="ramo" data-requiere="none" id="matematicas">Matemáticas</div>
+                <div class="ramo" data-requiere="none" id="bases-sociologicas">Bases Sociológicas</div>
+                <div class="ramo" data-requiere="none" id="fundamentos-trabajo-social">Fundamentos del Trabajo Social</div>
+                <div class="ramo" data-requiere="none" id="expresion-oral">Expresión Oral y Escrita</div>
+                <div class="ramo" data-requiere="none" id="autodesarrollo">Autodesarrollo</div>
+            </div>
+            <div class="semestre" id="segundo-semestre">
+                <h3>II Semestre</h3>
+                <div class="ramo" data-requiere="matematicas" id="estadistica-I">Estadística I</div>
+                <div class="ramo" data-requiere="bases-sociologicas" id="epistemologia-ciencias">Epistemología de las ciencias sociales</div>
+                <div class="ramo" data-requiere="fundamentos-trabajo-social" id="trabajo-social">Trabajo social como disciplina</div>
+                <div class="ramo" data-requiere="none" id="psicologia-general">Psicología General</div>
+                <div class="ramo" data-requiere="none" id="informatica">Informática Básica</div>
+            </div>
+        </section>
+        
+        <section id="segundo-ano">
+            <h2>Segundo Año</h2>
+            <div class="semestre" id="tercer-semestre">
+                <h3>III Semestre</h3>
+                <div class="ramo" data-requiere="estadistica-I" id="estadistica-II">Estadística II</div>
+                <div class="ramo" data-requiere="none" id="ecologia-humana">Ecología Humana</div>
+            </div>
+            <div class="semestre" id="cuarto-semestre">
+                <h3>IV Semestre</h3>
+                <div class="ramo" data-requiere="none" id="comunicacion">Comunicación</div>
+                <div class="ramo" data-requiere="none" id="economia-politica">Economía Política</div>
+            </div>
+        </section>
+
+        <section id="tercer-ano">
+            <h2>Tercer Año</h2>
+            <div class="semestre" id="quinto-semestre">
+                <h3>V Semestre</h3>
+                <div class="ramo" data-requiere="estadistica-II" id="investigacion-social-II">Investigación Social II</div>
+            </div>
+            <div class="semestre" id="sexto-semestre">
+                <h3>VI Semestre</h3>
+                <div class="ramo" data-requiere="ninguno" id="administracion">Administración y Gerencia Social</div>
+            </div>
+        </section>
+
+        <!-- Más años y semestres aquí... -->
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
